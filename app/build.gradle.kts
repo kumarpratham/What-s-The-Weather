@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.coding.whatstheweather"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.coding.whatstheweather"
@@ -32,6 +32,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        dataBinding = true
     }
 }
 
