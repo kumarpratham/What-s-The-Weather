@@ -1,4 +1,4 @@
-package com.coding.whatstheweather
+package com.coding.whatstheweather.data
 
 data class WeatherApp(
     val base: String,

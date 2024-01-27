@@ -34,7 +34,7 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
-        dataBinding = true
+        viewBinding = true
     }
 }
 
@@ -51,4 +51,9 @@ dependencies {
 
     // Lotti Animation
     implementation("com.airbnb.android:lottie:6.3.0")
+    // GSON converter
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
 }
